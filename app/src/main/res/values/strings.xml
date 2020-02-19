@@ -1,0 +1,292 @@
+<resources>
+
+    <string name="app_name">OhMyTennis</string>
+    <!--LoginActvity-->
+    <string name="login_title">Connexion</string>
+    <string name="user_id_hint">E-mail</string>
+    <string name="user_id_hint_1">Entrez votre email</string>
+    <string name="password_hint">Mot de passe</string>
+    <string name="password_hint_1">Entrez votre mot de passe</string>
+    <string name="login_button_text">Me Connecter</string>
+    <string name="l_forgot_password">Mot de passe oublié?</string>
+    <string name="skip">Skip</string>
+    <string name="done">Vous n\'avez pas de compte?</string>
+    <string name="register">\tS\'inscrire</string>
+    <string name="user_error">Indiquez votre e-mail.</string>
+    <string name="pass_error">Indiquez votre mot de passe.</string>
+    <!--LoginActvity-->
+    <!--ForgotActvity-->
+    <string name="forgot_button_text">Envoyer</string>
+    <string name="returnback">Retour\t</string>
+    <!--ForgotActvity-->
+    <!--RegisterActvity-->
+    <string name="register_tittle">Creer mon compte</string>
+    <string name="civility">Civilité</string>
+    <string name="mrs">Madame</string>
+    <string name="mr">Monsieur</string>
+    <string name="user_name">Prénom</string>
+    <string name="user_name_1">Entrez votre prénom</string>
+    <string name="user_name_nd">Nom</string>
+    <string name="user_name_nd_1">Entrez votre nom</string>
+    <string name="email_id_hint">E-mail</string>
+    <string name="email_id_hint_1">Entrez votre email</string>
+    <string name="r_password_hint">Mot de passe</string>
+    <string name="r_post_code_hint">Code postal</string>
+    <string name="r_post_code_hint_1">Entrez votre code postal</string>
+    <string name="r_ville_hint">Ville</string>
+    <string name="r_ville_hint_1">Entrez votre ville</string>
+    <string name="mobile_hint">Téléphone mobile</string>
+    <string name="mobile_hint_1">Entrez votre téléphone mobile</string>
+    <string name="r_c_password_hint">Confirmez le mot de passe</string>
+    <string name="spinner_hint">Débutants</string>
+    <string name="civi_error">Sélectionnez votre civilité.</string>
+    <string name="user_name_error">Indiquez votre prénom.</string>
+    <string name="user_name_nd_error">Indiquez votre nom.</string>
+    <string name="email_id_error">Indiquez votre e-mail</string>
+    <string name="r_password_error">Les mots de passe doivent au moins avoir 8 caractères avec les caractères, chiffres et symboles.</string>
+    <string name="r_c_password_error">Les mots de passe doivent au moins avoir 8 caractères avec les caractères, chiffres et symboles.</string>
+    <string name="r_code_portal_errror">Indiquez votre code postal.</string>
+    <!--<String name="r_code_portal_error">Indiquez votre code postal.</String>-->
+    <string name="spinner_error">Sélectionnez votre ville.</string>
+    <string name="r_mobile_error">Indiquez votre numéro de téléphone.</string>
+    <string name="check_boc_hint">Sparing</string>
+    <string name="register_button_text">S\'inscrire</string>
+    <!--RegisterActvity-->
+    <!--DiaglogActvity-->
+    <string name="check1">Tournoi de points</string>
+    <string name="check2">Année de pratique</string>
+    <string name="check3">Disponibilité</string>
+    <string name="check4">Voyage du rayon</string>
+    <string name="check5">Prix des heures</string>
+    <string name="checktitle">Épargnant</string>
+    <string name="checkbutton">Appliquer</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <!--RegisterActvity-->
+
+    <!--HomeActivity-->
+    <string name="home_tittle">Accuiel</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!--HomeActivity-->
+    <string name="star">&#160;*</string>
+    <string-array name="mobile_manufacturers">
+        <item>Select one Item</item>
+        <item>Samsung</item>
+        <item>Foxconn</item>
+        <item>Apple</item>
+        <item>Oppo</item>
+        <item>Nokia</item>
+        <item>LYF</item>
+        <item>Xiaomi</item>
+        <item>Huawei</item>
+        <item>Asus</item>
+        <item>Lenovo</item>
+    </string-array>
+    <string name="form_one_tab">INFORMATIONS\nPERSONNELLES</string>
+    <string name="form_two_tab">ENSEMBLE DE\nCOMPETENCES</string>
+    <string name="form_three_tab">DETAILS DE LA\nTRANSACTION</string>
+
+    <!-- TODO: My Account Form3 text-->
+    <string name="partner">Partenaire</string>
+    <string name="sparring">Sparring</string>
+    <string name="level_tennis">Niveau de tennis</string>
+    <string name="payment">Paiement</string>
+    <string name="check">Cheque</string>
+    <string name="online_transfer">Virement enligne</string>
+    <string name="bank_transfer">Virement banque</string>
+    <string name="bank_details">Coordonnées bancaires</string>
+    <string name="name_of_the_bank">Nom de la banque</string>
+    <string name="account_number">Numéro de compte</string>
+    <string name="bank_code">Code banque</string>
+    <string name="city_of_the_bank">Ville de la banque </string>
+    <string name="submit">Soumettre</string>
+    <string name="save">Enregistrer</string>
+    <string name="cancel">Annuler</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_individual_course_home">IndividualCourseHomeActivity</string>
+    <!-- TODO: My Account Form3 text-->
+
+    <string name="monday">Lundi</string>
+    <string name="tuesday">Mardi</string>
+    <string name="wednesday">Mercredi</string>
+    <string name="thursday">Jeudi</string>
+    <string name="friday">Vendredi</string>
+    <string name="saturday">Samedi</string>
+    <string name="sunday">Dimanche</string>
+
+    <!-- TODO: Service Dailog Text-->
+    <string name="service_provision_hint">Préstation de service</string>
+
+    <string name="services_1">Cours individuel</string>
+    <string name="services_2">Cours collectif ondemand</string>
+    <string name="services_3">Cours collectif club</string>
+    <string name="services_4">Stage</string>
+    <string name="services_5">Team building</string>
+    <string name="services_6">Animations</string>
+    <string name="services_7">Tournoi</string>
+    <!-- TODO: Service Dailog Text-->
+
+    <string name="str_heading">Brevet d\'Etat 1er degré</string>
+    <string name="str_temp">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</string>
+    <string name="str_prix">Prix</string>
+    <string name="str_person">personnes</string>
+    <string name="str_twoperson">2 personnes</string>
+    <string name="str_threeperson">3 personnes</string>
+    <string name="str_fouroperson">4 personnes</string>
+    <string name="str_fiveoperson">5 personnes</string>
+    <string name="str_sixperson">6 personnes</string>
+    <string name="str_disposable">  Disposable</string>
+    <string name="str_attente">  En attente</string>
+    <string name="str_reserve">  Reserve</string>
+    <string name="str_reserve_detail">Reservation Detail</string>
+    <string name="str_non_disposable">  Non Disposable</string>
+
+    <string name="str_address_detail">Address details</string>
+    <string name="str_address">Address</string>
+    <string name="str_contact">Contact no</string>
+    <string name="str_alternative">Alternative Contact no</string>
+    <string name="str_email">Email</string>
+
+    <string name="str_mon_active">Mon active</string>
+    <string name="str_voiture">Voiture</string>
+    <string name="str_moto">Moto</string>
+    <string name="str_train">Train</string>
+    <string name="str_bus">Bus</string>
+
+    <string name="str_time">Time : </string>
+    <string name="str_date">Date : </string>
+    <string name="str_price">Price : </string>
+    <string name="str_location">Location : </string>
+    <string name="default_calendar">Default calendar</string>
+    <string name="open_calendar_dialog">Open calendar dialog</string>
+
+    <string name="change_attributes_programmatically">Change attributes programmatically</string>
+    <string name="horizontal">Horizontal</string>
+    <string name="vertical">Vertical</string>
+    <string name="single">Single</string>
+    <string name="multiple">Multiple</string>
+    <string name="range">Range</string>
+    <string name="none">None</string>
+
+    <!-- MENU -->
+    <string name="select_all_fridays">Select All Fridays</string>
+    <string name="unselect_all_fridays">Unselect All Fridays</string>
+    <string name="select_three_months">Select Prev/Curr/Next Months</string>
+    <string name="unselect_three_months">Unselect Prev/Curr/Next Months</string>
+    <string name="clear_selections">Clear selections</string>
+    <string name="log_selected_days">Log selected days</string>
+
+
+    <string name="addPayment">Add Payment Method</string>
+    <string name="addThreeDSecureCard">Add Source</string>
+    <string name="addThreeDSecureCardSync">Add Source Rx</string>
+    <string name="paymentMethods">Payment Methods</string>
+
+    <string name="endingIn">Card ending in </string>
+    <string name="progressMessage">Creating Token&#8230;</string>
+    <string name="progressPayment">Please wait&#8230;</string>
+
+    <string name="validationErrors">Validation Errors</string>
+
+    <string name="create_card_tokens">Create Card Tokens</string>
+    <string name="create_card_payment_methods">Create Card PaymentMethods</string>
+    <string name="create_three_d_secure">Create 3DS Sources</string>
+    <string name="createSource">Creating source&#8230;</string>
+    <string name="customer_payment_data_example">Customer Payment Selection</string>
+    <string name="launch_customer_session">Customer Session</string>
+    <string name="launch_pay_with_google">Pay with Google</string>
+    <string name="launch_payment_session">Payment Session</string>
+    <string name="launch_payment_session_from_fragment">Fragment Examples</string>
+    <string name="create_asynctask">Create Token with AsyncTask</string>
+    <string name="create_rxjava">Create Token with RxJava</string>
+    <string name="select_add_card">Select or add card</string>
+    <string name="selected_card">Selected card:</string>
+    <string name="updatedSources">Source results</string>
+
+    <string name="payment_session_select_payment">Select Payment Method</string>
+    <string name="payment_session_select_shipping">Set Shipping Information</string>
+    <string name="payment_session_data">Payment Session Data</string>
+    <string name="ok">OK</string>
+    <string name="add_payment_method_footer">Please read and review our <a href="https://stripe.com/privacy">privacy policy</a>.</string>
+
+    <string name="label_source_type">Type</string>
+    <string name="label_3ds_status">3DS status</string>
+    <string name="label_source_state">Status</string>
+    <string name="label_source_id">ID Last 6</string>
+
+    <string name="sample_card_requiring_3ds">4000 0000 0000 3063</string>
+
+    <string name="pay_with_google_content_description">Pay with Google</string>
+
+    <string name="creating_payment_intent">Creating PaymentIntent&#8230;</string>
+
+    <string name="creating_setup_intent">Creating SetupIntent&#8230;</string>
+
+    <string name="authentication_dialog_title">Authentication required</string>
+    <string name="authentication_dialog_message">Authenticate %1$s ending in %2$s?</string>
+    <string name="pay_with_google">Pay with Google</string>
+
+    <!-- Payment Confirmation and Authentication example -->
+    <string name="payment_auth_example">Payment Intent &amp; Setup Intent Confirmation</string>
+    <string name="auth_payment_intent">Authenticate PaymentIntent</string>
+    <string name="auth_setup_intent">Authenticate SetupIntent</string>
+    <string name="buy_with_3ds2">Buy with 3DS2</string>
+    <string name="buy_with_3ds1">Buy with 3DS1</string>
+    <string name="setup">Buy in the Future!</string>
+    <string name="payment_intent_status">PaymentIntent status: %s</string>
+    <string name="setup_intent_status">SetupIntent status: %s</string>
+    <string name="payment_auth_intro">Tapping the button below will create a PaymentIntent then attempt to Confirmer it.</string>
+    <string name="setup_auth_intro">Tapping the button below will create a SetupIntent then attempt to Confirmer it.</string>
+    <!-- TODO: Top Menu text-->
+    <string name="add">Add</string>
+    <string name="delete">Delete</string>
+    <string name="discard">Discard</string>
+    <string name="search">Search</string>
+    <string name="update">Update</string>
+    <string name="drawer_open">Open drawer navigation</string>
+    <string name="drawer_close">Navigation drawer Close</string>
+
+    <string name="msg_error_unable_select_profile_pic">Unable to set profile image. Please try again!</string>
+    <string name="lbl_set_profile_photo">Set profile image</string>
+    <string name="lbl_take_camera_picture">Take a picture</string>
+    <string name="lbl_choose_from_gallery">Choose from gallery</string>
+    <string name="toast_image_intent_null">Image picker option is missing!</string>
+    <string name="dialog_permission_title">Grant Permissions</string>
+    <string name="dialog_permission_message">This app needs permission to use this feature. You can grant them in app settings.</string>
+    <string name="go_to_settings">GOTO SETTINGS</string>
+    <string name="close">Close</string>
+    <string name="example_3_input_dialog_title">Enter event title</string>
+    <string name="example_3_empty_input_text">Text is empty</string>
+    <string name="example_3_dialog_delete_confirmation">Delete this event?</string>
+    <string name="start_date">Start date</string>
+    <string name="end_date">End date</string>
+    <string name="week_mode">Week mode</string>
+
+    <!-- TODO: Home text-->
+    <string name="one_number_of_individual_courses_booked">Nombre de cours individuels réservés</string>
+    <string name="two_number_of_reserved_group_classes">Nombre de cours collectifs réservés</string>
+    <string name="three_number_of_reserved_group_courses_reserved">Nombre de cours collectifs ondemand réservés</string>
+    <string name="four_number_of_individual_courses_completed">Nombre de cours individuels terminés</string>
+    <string name="five_number_of_group_classes_completed">Nombre de cours collectifs terminés</string>
+    <string name="six_number_of_collective_courses_completed">Nombre de cours collectifs ondemand terminés</string>
+    <string name="seven_notes_comments">Notes \/ commentaires</string>
+    <string name="eight_reschedule_individual_courses">Reschedule \- cours individuels</string>
+    <!-- TODO: Home text-->
+
+
+
+</resources>

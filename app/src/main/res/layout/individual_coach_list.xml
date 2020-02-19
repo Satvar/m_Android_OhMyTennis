@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@drawable/list_background"
+    android:layout_marginTop="15dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:orientation="vertical"
+        >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_height="wrap_content">
+
+            <com.tech.cloudnausor.ohmytennis.utils.CircleImageView
+                android:src="@drawable/user_praba"
+                android:id="@+id/profile_coach_image"
+                android:layout_width="100dp"
+                android:layout_height="100dp" />
+
+        <TextView
+            android:layout_marginTop="5dp"
+            android:textColor="@color/colorPrimary"
+
+            android:id="@+id/home_coach_name"
+            android:textSize="18dp"
+            android:text="Balachnadran"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/profilestar1"
+                android:tint="@color/orgin_tint"
+                android:src="@drawable/ic_star_full_24dp"
+                android:layout_width="15dp"
+                android:layout_height="15dp" />
+            <ImageView
+                android:id="@+id/profilestar2"
+                android:tint="@color/orgin_tint"
+                android:src="@drawable/ic_star_full_24dp"
+                android:layout_width="15dp"
+                android:layout_height="15dp" />
+            <ImageView
+                android:id="@+id/profilestar3"
+                android:tint="@color/orgin_tint"
+                android:src="@drawable/ic_star_full_24dp"
+                android:layout_width="15dp"
+                android:layout_height="15dp" />
+            <ImageView
+                android:id="@+id/profilestar4"
+                android:tint="@color/orgin_tint"
+                android:src="@drawable/ic_star_full_24dp"
+                android:layout_width="15dp"
+                android:layout_height="15dp" />
+            <ImageView
+                android:id="@+id/profilestar5"
+                android:tint="@color/orgin_tint"
+                android:src="@drawable/ic_star_full_24dp"
+                android:layout_width="15dp"
+                android:layout_height="15dp" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textColor="#555555"
+            android:id="@+id/home_coach_price_hr"
+            android:gravity="left"
+            android:layout_weight="1"
+
+            android:text="Balachnadran"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textColor="#555555"
+            android:id="@+id/home_coach_price_ten_hr"
+            android:gravity="left"
+            android:layout_weight="1"
+            android:text="Balachnadran"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <TextView
+
+        android:textAllCaps="true"
+        android:layout_marginTop="15dp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:text="La description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_marginBottom="5dp"
+        android:id="@+id/home_coach_desc"
+        android:layout_marginTop="5dp"
+        android:text=""
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+<ImageView
+    android:visibility="gone"
+    android:background="@drawable/map_dummy"
+    android:layout_margin="5dp"
+    android:layout_width="match_parent"
+    android:layout_height="150dp">
+</ImageView>
+    <LinearLayout
+        android:layout_margin="15sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:visibility="gone"
+            android:id="@+id/home_coach_reserce"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:textAllCaps="true"
+            android:layout_height="35dp"
+            android:layout_marginTop="10sp"
+            android:layout_marginBottom="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/white_tint"
+            android:text="Reserve"
+
+            android:background="@drawable/loginbutton"
+            />
+        <Button
+            android:id="@+id/home_coach_details"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:textAllCaps="true"
+            android:layout_height="45dp"
+            android:layout_marginTop="10sp"
+            android:layout_marginBottom="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/white_tint"
+            android:text="Voir les details"
+            android:background="@drawable/loginbutton"
+            />
+
+    </LinearLayout>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="#E9E9E9"
+        android:layout_height="2dp"/>
+</LinearLayout>

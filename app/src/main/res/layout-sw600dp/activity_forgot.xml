@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_alignParentTop="true"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="@dimen/login_logo_left_right"
+        android:layout_marginRight="@dimen/login_logo_left_right"
+        android:layout_marginTop="60sp"
+        android:layout_marginBottom="30dp"
+        android:layout_height="75sp"
+        android:src="@drawable/logo"/>
+
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_centerInParent="true"
+    android:layout_height="wrap_content"
+    tools:context=".activity.login.ForgotActivity">
+    <TextView
+        android:layout_marginBottom="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+
+        android:gravity="center"
+        android:text="MOT DE PASSE OUBLIÉ"/>
+    <TextView
+        android:textColor="#000000"
+        android:layout_marginBottom="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="17dp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:text="Saisissez votre adresse e-mail associée à votre compte OhMyTennis et recevez un lien pour réinitialiser votre mot de passe."/>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            >
+            <EditText
+                android:textColorHint="#000000"
+                android:textColor="#000000"
+                android:drawableLeft="@drawable/email"
+                android:drawablePadding="10dp"
+                android:hint="@string/user_id_hint"
+                android:textSize="17dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/login_logo_left_right"
+                android:layout_marginRight="@dimen/login_logo_left_right"
+                android:backgroundTint="@color/orgin_tint"
+                 />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="30sp"
+                android:textStyle="bold"
+                android:textColor="@color/white_tint"
+                android:layout_marginLeft="@dimen/login_logo_left_right"
+                android:layout_marginRight="@dimen/login_logo_left_right"
+                android:textSize="20dp"
+                android:text="ANNULER"
+
+                android:background="@drawable/loginbutton"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>
+    <TextView
+        android:layout_alignParentBottom="true"
+        android:textSize="17dp"
+        android:textColor="#000000"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:gravity="center"
+        android:id="@+id/gofloginid"
+        android:text="@string/done"/>
+
+</RelativeLayout>

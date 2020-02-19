@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:elevation="2dp"
+        android:id="@+id/toolbar_indi"
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/back"
+            android:src="@drawable/back_icon"
+            android:tint="@color/white_tint"
+            android:layout_marginRight="10dp"
+            android:layout_gravity="left"
+            android:layout_width="25dp"
+            android:layout_height="25dp" />
+        <TextView
+            android:textColor="@color/white_tint"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_gravity="center"
+            android:text="Payment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <!--<ImageView-->
+        <!--android:visibility=""-->
+        <!--android:id="@+id/edit_indi"-->
+        <!--android:src="@drawable/edit_icon"-->
+        <!--android:tint="@color/whitecolor"-->
+        <!--android:layout_marginRight="10dp"-->
+        <!--android:layout_gravity="right"-->
+        <!--android:layout_width="25dp"-->
+        <!--android:layout_height="25dp" />-->
+    </androidx.appcompat.widget.Toolbar>
+<LinearLayout
+    android:layout_marginTop="30dp"
+    android:paddingStart="8dp"
+    android:paddingEnd="8dp"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:src="@drawable/logo"
+        android:layout_margin="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"/>
+    <TextView
+        android:visibility="visible"
+        android:layout_gravity="center"
+        android:textColor="@color/colorPrimary"
+        android:id="@+id/payment_form_title"
+        android:text=""
+        style="@style/Header"
+        />
+
+    <com.stripe.android.view.CardMultilineWidget
+        android:id="@+id/card_multiline_widget"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:shouldShowPostalCode="false"
+        />
+
+    <Button
+        android:textAllCaps="false"
+        android:layout_marginHorizontal="30dp"
+        android:padding="2dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/white_tint"
+        android:backgroundTint="@color/colorPrimary"
+        android:id="@+id/save_payment"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="Payer"
+        />
+
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/source_list_title"
+        android:text="Payment List"
+        android:layout_marginTop="12dp"
+        style="@style/Header"
+        />
+
+    <ListView
+        android:visibility="gone"
+        android:id="@+id/card_list_pma"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+</LinearLayout>
+</LinearLayout>

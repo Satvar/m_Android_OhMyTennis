@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#e75b00</color>
+    <color name="linthint">#e75b00</color>
+    <color name="texthint">#272727</color>
+    <color name="backcolor">#272727</color>
+    <!--<color name="linthint">#F8A46C</color>-->
+    <color name="colorPrimaryDark">#C04B00</color>
+    <color name="colorAccent">#e75b00</color>
+    <color name="orgin_tint">#e75b00</color>
+    <color name="white_tint">#ffffff</color>
+    <color name="error">#ff0000</color>
+    <color name="button_cancel">#575757</color>
+    <color name="greencolor">#00C200</color>
+    <color name="linerecyle">#E7E7E7</color>
+    <color name="light_gray">#322A2A2A</color>
+    <color name="light_title_gray">#A12A2A2A</color>
+    <color name="colorGoogleGreen">#3cba54</color>
+    <color name="colorGoogleYellow">#f4c20d</color>
+    <color name="colorGoogleRed">#db3236</color>
+    <color name="colorGoogleBlue">#4885ed</color>
+
+    <color name="white">#ffffff</color>
+    <color name="gray">#66E5E5E5</color>
+    <color name="black">#000000</color>
+    <color name="background">#EEEEEE</color>
+
+    <color name="transparent">#00000000</color>
+
+    <!-- Status para as lista -->
+    <color name="navigation_view">#DADADC</color>
+    <color name="navigation_items">#ffffff</color>
+    <color name="gray_navegation">#ffffff</color>
+
+    <color name="blue_light">#FF5722</color>
+    <color name="purple_light">#AA66CC</color>
+    <color name="green_light">#99CC00</color>
+    <color name="orange_light">#FFBB33</color>
+    <color name="red_light">#FF4444</color>
+
+    <color name="blue_dark">#FF5722</color>
+    <color name="purple_dark">#9933CC</color>
+    <color name="green_dark">#669900</color>
+    <color name="orange_dark">#FF8800</color>
+    <color name="red_dark">#CC0000</color>
+    <color name="attach">#086997</color>
+
+    <color name="button_cancel_disable">#40575757</color>
+    <color name="button_accept_disable">#403CBA54</color>
+    <color name="button_modify_disable">#4017A2B8</color>
+    <color name="profile_default_tint">#e0e0e0</color>
+
+</resources>

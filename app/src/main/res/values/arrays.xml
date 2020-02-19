@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="nav_menu_items">
+        <item>TABLEAU DE BOARD</item>
+        <item>OH MY COACHS</item>
+        <item>MON COMPTE</item>
+        <item>OH MY EVENTS</item>
+        <item>\t\t\t\t\t\tSTAGE</item>
+        <item>\t\t\t\t\t\tTEAM BUILDING</item>
+        <item>\t\t\t\t\t\tANIMATIONS</item>
+        <item>\t\t\t\t\t\tTOURNOI</item>
+        <item>MES RESERVATIONS</item>
+        <item>SE DECONNECTER</item>
+    </string-array>
+</resources>

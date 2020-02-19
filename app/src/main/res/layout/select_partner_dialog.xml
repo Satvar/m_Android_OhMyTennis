@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_marginLeft="@dimen/login_logo_left_right"
+    android:layout_marginRight="@dimen/login_logo_left_right"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_marginLeft="@dimen/login_logo_left_right"
+        android:layout_marginRight="@dimen/login_logo_left_right"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_marginLeft="5dp"
+                android:layout_marginBottom="-6dp"
+                android:text="Type of Ranking"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <com.tech.cloudnausor.ohmytennis.utils.MyAutoCompleteTextView
+                android:fontFamily="@font/open_sans"
+                android:textColor="#000000"
+                android:textColorHint="#000000"
+                android:hint="Sélectionnez le Ranking"
+                android:drawableTint="@color/orgin_tint"
+                android:backgroundTint="@color/colorPrimary"
+                android:drawableRight="@drawable/ic_date_black_24dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_marginLeft="5dp"
+                android:layout_marginBottom="-6dp"
+                android:text="Type of Ranking"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <EditText
+                    android:layout_weight="1"
+
+                    android:textColor="#000000"
+                    android:textColorHint="#000000"
+                    android:hint="From"
+                    android:drawableTint="@color/orgin_tint"
+                    android:backgroundTint="@color/colorPrimary"
+                    android:drawableRight="@drawable/ic_access_time_black_24dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <EditText
+                    android:layout_weight="1"
+                    android:fontFamily="@font/open_sans"
+                    android:textColor="#000000"
+                    android:textColorHint="#000000"
+                    android:hint="To"
+                    android:drawableTint="@color/orgin_tint"
+                    android:backgroundTint="@color/colorPrimary"
+                    android:drawableRight="@drawable/ic_access_time_black_24dp"               android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_marginLeft="5dp"
+                android:layout_marginBottom="-6dp"
+                android:text="Type of Ranking"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <com.tech.cloudnausor.ohmytennis.utils.MyAutoCompleteTextView
+                android:fontFamily="@font/open_sans"
+                android:textColor="#000000"
+                android:textColorHint="#000000"
+                android:hint="Sélectionnez le Ranking"
+                android:drawableTint="@color/orgin_tint"
+                android:backgroundTint="@color/colorPrimary"
+                android:drawableRight="@drawable/ic_spinner_arrow_down_black_24dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_marginLeft="5dp"
+                android:layout_marginBottom="-6dp"
+                android:text="Type of Ranking"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <com.tech.cloudnausor.ohmytennis.utils.MyAutoCompleteTextView
+                android:fontFamily="@font/open_sans"
+                android:textColor="#000000"
+                android:textColorHint="#000000"
+                android:hint="Sélectionnez le Ranking"
+                android:drawableTint="@color/orgin_tint"
+                android:backgroundTint="@color/colorPrimary"
+                android:drawableRight="@drawable/ic_spinner_arrow_down_black_24dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginLeft="@dimen/login_logo_left_right"
+        android:layout_marginRight="@dimen/login_logo_left_right"
+        android:id="@+id/bottomrow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:textAllCaps="true"
+            android:textSize="17sp"
+            android:layout_height="40dp"
+            android:layout_marginTop="30sp"
+            android:layout_marginBottom="30sp"
+            android:textStyle="bold"
+            android:textColor="@color/white_tint"
+            android:text="@string/cancel"
+            android:fontFamily="@font/open_sans"
+            android:background="@drawable/cancelbutton"
+            />
+        <Button
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:textAllCaps="true"
+            android:textSize="17sp"
+            android:layout_height="40dp"
+            android:layout_marginTop="30sp"
+            android:layout_marginBottom="30sp"
+            android:textStyle="bold"
+            android:textColor="@color/white_tint"
+            android:text="Appliquer"
+            android:fontFamily="@font/open_sans"
+            android:background="@drawable/loginbutton"
+            />
+    </LinearLayout>
+</LinearLayout>

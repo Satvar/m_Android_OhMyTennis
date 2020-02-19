@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:showIn="navigation_view"
+    >
+
+    <group >
+        <item
+            android:id="@+id/nav_home"
+            android:title="TABLEAUX DE BOARD" />
+        <item
+            android:id="@+id/nav_my_account"
+            android:title="MON COMPTE"/>
+        <item
+            android:id="@+id/nav_calenderpage"
+            android:title="MON CALENDER"/>
+        <item
+            android:id="@+id/nav_resevation"
+            android:title="Réservation" />
+        <item
+            android:id="@+id/nav_command"
+            android:title="Avist et commentaires"/>
+        <item
+            android:id="@+id/nav_partner"
+            android:title="Partenaire" />
+        <item
+            android:id="@+id/nav_sparring"
+            android:title="Sparring" />
+        <item
+            android:id="@+id/nav_change_pass"
+            android:title="Changer le mot de passe" />
+        <item
+            android:id="@+id/nav_tools2"
+            android:title="Se déconnecter" />
+    </group>
+
+    <!--<item android:title="Communicate">-->
+    <!--<menu>-->
+    <!--<item-->
+    <!--android:id="@+id/nav_share"-->
+    <!--android:icon="@drawable/ic_menu_share"-->
+    <!--android:title="@string/home_tittle" />-->
+    <!--<item-->
+    <!--android:id="@+id/nav_send"-->
+    <!--android:icon="@drawable/ic_menu_send"-->
+    <!--android:title="@string/home_tittle" />-->
+    <!--</menu>-->
+    <!--</item>-->
+
+</menu>

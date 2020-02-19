@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_marginTop="8dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_gravity="center"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:src="@drawable/sparring_image"
+            android:elevation="3dp"
+            android:layout_width="120dp"
+            android:layout_height="120dp" />
+        <LinearLayout
+            android:layout_marginRight="8dp"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/sparring_name"
+                android:text="Bala"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorPrimary"
+                />
+            <TextView
+                android:id="@+id/sparring_qualification"
+
+                android:text="Bala"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="-3dp"
+                android:textSize="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                />
+            <LinearLayout
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:gravity="center"
+                android:layout_weight="0"
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                android:background="@drawable/active_dot">
+                <TextView
+                    android:text="1"
+                    android:textColor="@color/white_tint"
+                    android:textSize="9dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <ProgressBar
+                android:id="@+id/sparring_progress"
+                android:max="10"
+                android:progress="5"
+                android:layout_weight="1"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:indeterminate="false" />
+            <LinearLayout
+                android:gravity="center"
+                android:layout_weight="0"
+                android:tint="@color/button_cancel"
+                android:layout_gravity="center"
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                android:background="@drawable/non_active_dot">
+                <TextView
+                    android:text="10"
+                    android:textColor="@color/white_tint"
+                    android:textSize="9dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            </LinearLayout>
+            <TextView
+                android:id="@+id/sparring_describtion"
+                android:text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's."
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+<LinearLayout
+    android:layout_marginTop="8dp"
+    android:background="@color/linerecyle"
+    android:layout_width="match_parent"
+    android:layout_height="2dp"/>
+
+
+</LinearLayout>
